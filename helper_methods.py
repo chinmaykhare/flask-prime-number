@@ -7,10 +7,9 @@ def checkPrimeNumber(num):
                 print("Entered number {} is not a prime number".format(num))
                 result = 'NOT_PRIME'
                 break
-            else:
-                print("Entered number {} is a prime number".format(num))
-                result = 'PRIME'
-                break
+        else:
+            print("Entered number {} is a prime number".format(num))
+            result = 'PRIME'
     else:
         print("Entered number {} is not a prime number".format(num))
         result = 'NOT_PRIME'
